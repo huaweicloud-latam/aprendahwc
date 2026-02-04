@@ -110,7 +110,7 @@ ul li{ margin-bottom: var(--spacing-xs); }
 /* ---------- Buttons / Icons ---------- */
 .button,
 button{
-  display:inline-flex;
+  display:flex;
   align-items:center;
   justify-content:center;
   width:100%;
@@ -131,6 +131,8 @@ button{
   overflow-wrap: anywhere;
   hyphens: auto;
   margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   text-align:center;
   line-height:1.3;
   transition: filter .2s ease, transform .2s ease;
@@ -188,6 +190,7 @@ p.button-stack-divider{
   font-weight:bold;
   font-size:1rem;
   margin:2rem 0 1rem 0;
+  text-align: center;
 }
 
 /* ---------- Sections / Nav / Headings ---------- */
