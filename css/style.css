@@ -186,7 +186,7 @@ p.button-icon-list{ user-select:none; }
 .button-icon:hover{ background-color:#595959; }
 
 /* small stack divider */
-p.button-stack-divider{
+h2.button-stack-divider{
   font-weight:bold;
   font-size:1rem;
   margin:2rem 0 1rem 0;
@@ -254,3 +254,8 @@ footer a{ color: inherit; }
 
 /* ---------- Utilities / minor overrides ---------- */
 .icon[role="img"]{ display:inline-block; }
+
+footer p {
+  font-size: var(--scale-0) !important;
+  margin: 0.5rem 0 !important;
+}
