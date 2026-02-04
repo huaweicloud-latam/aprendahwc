@@ -2,7 +2,7 @@ name: "Contrast Check"
 on:
   pull_request:
     paths:
-      - 'css/brands.css'
+      - 'css/style.css'
   workflow_dispatch:  # Manual trigger for testing
 
 jobs:
